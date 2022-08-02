@@ -16,6 +16,7 @@ import com.corinto.minhasfinancas.api.dto.UsuarioDTO;
 import com.corinto.minhasfinancas.exception.ErroAutenticacao;
 import com.corinto.minhasfinancas.exception.RegraNegocioException;
 import com.corinto.minhasfinancas.model.entity.Usuario;
+import com.corinto.minhasfinancas.service.JwtService;
 import com.corinto.minhasfinancas.service.LancamentoService;
 import com.corinto.minhasfinancas.service.UsuarioService;
 
