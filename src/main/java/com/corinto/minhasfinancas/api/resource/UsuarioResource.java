@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.corinto.minhasfinancas.api.dto.TokenDTO;
 import com.corinto.minhasfinancas.api.dto.UsuarioDTO;
 import com.corinto.minhasfinancas.exception.ErroAutenticacao;
 import com.corinto.minhasfinancas.exception.RegraNegocioException;

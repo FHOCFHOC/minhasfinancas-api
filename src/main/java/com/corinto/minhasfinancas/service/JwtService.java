@@ -13,5 +13,5 @@ public interface JwtService {
 	
 	boolean isTokenValido(String token);
 	
-	String obterLoginUsuario( String token );
+	String obterLoginUsuario(String token);
 }
